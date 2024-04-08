@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-08T23:58:18.769831" rpa="false" schemaversion="5">
+<suite id="s1" name="Form-react" source="D:\My Coding Works\Robot2\Form-react.robot">
+<test id="s1-t1" name="Input ValidationNameThai" line="20">
+<kw name="Open Google ReactForm">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:58:19.986429" level="INFO">Opening browser 'Edge' to base url 'https://formik-react-2-0.vercel.app/'.</msg>
+<arg>https://formik-react-2-0.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-08T23:58:19.985429" elapsed="50.869013"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:58:19.982429" elapsed="50.902198"/>
+</kw>
+<kw name="Input FirstnameTHA">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:11.000434" level="INFO">Typing text 'tin' into text field 'name=firstnameTha'.</msg>
+<arg>name=firstnameTha</arg>
+<arg>${INPUT_FIRSTNAMETHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-08T23:59:10.992364" elapsed="0.368123"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:10.956688" elapsed="0.403799"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:11.414635" level="INFO">Clicking element 'id=lastnameEng'.</msg>
+<msg time="2024-04-08T23:59:13.159169" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-08T23:59:13.171225" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 731)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+	(No symbol) [0x00007FF61DF4960E]
+	(No symbol) [0x00007FF61DF487CC]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]
+</msg>
+<arg>id=lastnameEng</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-04-08T23:59:11.414635" elapsed="2.019634">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 731)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</kw>
+<status status="FAIL" start="2024-04-08T23:59:11.412632" elapsed="2.022637">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 731)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</kw>
+<kw name="Verify FirstnameThai Results">
+<status status="NOT RUN" start="2024-04-08T23:59:13.435269" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-04-08T23:59:13.436780" elapsed="0.001000"/>
+</kw>
+<doc>Test NameThai Input Validation</doc>
+<status status="FAIL" start="2024-04-08T23:58:19.980428" elapsed="53.464857">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 731)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</test>
+<test id="s1-t2" name="Input ValidationNameENG" line="28">
+<kw name="Open Google ReactForm">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:13.893965" level="INFO">Opening browser 'Edge' to base url 'https://formik-react-2-0.vercel.app/'.</msg>
+<arg>https://formik-react-2-0.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-08T23:59:13.889966" elapsed="13.229829"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:13.888963" elapsed="13.231826"/>
+</kw>
+<kw name="Input FirstnameENG">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:27.175494" level="INFO">Typing text 'ทินภัทร' into text field 'name=firstnameEng'.</msg>
+<arg>name=firstnameEng</arg>
+<arg>${INPUT_FirstnameENG}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-08T23:59:27.173494" elapsed="0.608228"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:27.169493" elapsed="0.612229"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:27.786262" level="INFO">Clicking element 'id=lastnameEng'.</msg>
+<msg time="2024-04-08T23:59:30.137878" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-08T23:59:30.146896" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 709)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+	(No symbol) [0x00007FF61DF4960E]
+	(No symbol) [0x00007FF61DF487CC]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]
+</msg>
+<arg>id=lastnameEng</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-04-08T23:59:27.785262" elapsed="2.369260">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 709)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</kw>
+<status status="FAIL" start="2024-04-08T23:59:27.784236" elapsed="2.371311">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 709)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</kw>
+<kw name="Verify FirstnameENG Results">
+<status status="NOT RUN" start="2024-04-08T23:59:30.157547" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-04-08T23:59:30.158809" elapsed="0.000000"/>
+</kw>
+<doc>Test NameENG Input Validation</doc>
+<status status="FAIL" start="2024-04-08T23:59:13.765453" elapsed="16.394356">ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (486, 709)
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61E155B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E4AB2+220434]
+	(No symbol) [0x00007FF61DF0DCD7]
+	(No symbol) [0x00007FF61DF5ADC6]
+	(No symbol) [0x00007FF61DF59033]
+	(No symbol) [0x00007FF61DF56D48]
+	(No symbol) [0x00007FF61DF55D60]
+	(No symbol) [0x00007FF61DF4A856]
+	(No symbol) [0x00007FF61DF73F2A]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF49FAD]
+	(No symbol) [0x00007FF61DF74210]
+	(No symbol) [0x00007FF61DF4A0E7]
+	(No symbol) [0x00007FF61DF8D149]
+	(No symbol) [0x00007FF61DF73B93]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF61DF491C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E3058FC+1052188]
+	(No symbol) [0x00007FF61DFBFFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E06150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61E058E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF61E304865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0ED2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E85B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0E86EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61E0DFEE1+201025]
+	BaseThreadInitThunk [0x00007FFA3DA4257D+29]
+	RtlUserThreadStart [0x00007FFA3E28AA58+40]</status>
+</test>
+<test id="s1-t3" name="Input ValidationIDCARD" line="36">
+<kw name="Open Google ReactForm">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:30.274438" level="INFO">Opening browser 'Edge' to base url 'https://formik-react-2-0.vercel.app/'.</msg>
+<arg>https://formik-react-2-0.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-08T23:59:30.273439" elapsed="10.763545"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:30.266344" elapsed="10.770640"/>
+</kw>
+<kw name="Input IdCard">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:41.114255" level="INFO">Typing text '56789' into text field 'name=idCard'.</msg>
+<arg>name=idCard</arg>
+<arg>${INPUT_IDCARD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-08T23:59:41.113254" elapsed="0.610764"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:41.109254" elapsed="0.614764"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:41.727560" level="INFO">Clicking element 'id=lastnameEng'.</msg>
+<arg>id=lastnameEng</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-08T23:59:41.726560" elapsed="0.263162"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:41.725529" elapsed="0.264193"/>
+</kw>
+<kw name="Verify IdCard Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${EXPECTED_IDCARD}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-08T23:59:41.994270" elapsed="0.485053"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:42.928410" level="INFO">Current page contains text 'กรุณาใส่ให้ครบ 13 หลัก'.</msg>
+<arg>${EXPECTED_IDCARD}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-08T23:59:42.480321" elapsed="0.448089"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:43.193082" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot_Input%20ValidationIDCARD.png"&gt;&lt;img src="screenshot_Input%20ValidationIDCARD.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>filename=screenshot_${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-08T23:59:42.934943" elapsed="0.258139"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:41.990720" elapsed="1.202362"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-08T23:59:43.214669" elapsed="4.861135"/>
+</kw>
+<doc>Test ID Card Input Validation</doc>
+<status status="PASS" start="2024-04-08T23:59:30.258346" elapsed="17.818457"/>
+</test>
+<test id="s1-t4" name="Input ValidationEMAIL" line="44">
+<kw name="Open Google ReactForm">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-08T23:59:48.083359" level="INFO">Opening browser 'Edge' to base url 'https://formik-react-2-0.vercel.app/'.</msg>
+<arg>https://formik-react-2-0.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-08T23:59:48.082357" elapsed="12.524963"/>
+</kw>
+<status status="PASS" start="2024-04-08T23:59:48.081318" elapsed="12.527003"/>
+</kw>
+<kw name="Input Email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:00.703593" level="INFO">Typing text '654259027@gmail.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${INPUT_EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-09T00:00:00.698593" elapsed="1.339073"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:00.697588" elapsed="1.340078"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:02.040171" level="INFO">Clicking element 'id=lastnameEng'.</msg>
+<arg>id=lastnameEng</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-09T00:00:02.038662" elapsed="1.416885"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:02.038662" elapsed="1.417885"/>
+</kw>
+<kw name="Verify Email Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${EXPECTED_EMAIL}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-09T00:00:04.498538" elapsed="0.289095"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:04.817212" level="INFO">Current page contains text 'Email must contain specific domain name'.</msg>
+<arg>${EXPECTED_EMAIL}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-09T00:00:04.787633" elapsed="0.029579"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:05.028701" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot_Input%20ValidationEMAIL.png"&gt;&lt;img src="screenshot_Input%20ValidationEMAIL.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>filename=screenshot_${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-09T00:00:04.817212" elapsed="0.211489"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:04.496536" elapsed="0.533167"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-09T00:00:05.036704" elapsed="5.075558"/>
+</kw>
+<doc>Test Email Input Validation</doc>
+<status status="PASS" start="2024-04-08T23:59:48.077804" elapsed="22.035459"/>
+</test>
+<test id="s1-t5" name="Input ValidationPASSWORD" line="52">
+<kw name="Open Google ReactForm">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:10.118809" level="INFO">Opening browser 'Edge' to base url 'https://formik-react-2-0.vercel.app/'.</msg>
+<arg>https://formik-react-2-0.vercel.app/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-09T00:00:10.117811" elapsed="10.371037"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:10.117811" elapsed="10.372038"/>
+</kw>
+<kw name="Input Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:20.586182" level="INFO">Typing text 'kdlf9' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${INPUT_PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-09T00:00:20.565612" elapsed="0.384766"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:20.564612" elapsed="0.385766"/>
+</kw>
+<kw name="Click Element Field">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:20.952378" level="INFO">Clicking element 'id=lastnameEng'.</msg>
+<arg>id=lastnameEng</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-09T00:00:20.951377" elapsed="0.714621"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:20.951377" elapsed="0.715621"/>
+</kw>
+<kw name="Verify Password Results">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${EXPECTED_PASSWORD}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-09T00:00:21.667508" elapsed="0.099386"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:21.830693" level="INFO">Current page contains text 'กรุณาใส่ให้มันครบ 8 ตัว'.</msg>
+<arg>${EXPECTED_PASSWORD}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-04-09T00:00:21.767894" elapsed="0.063799"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-04-09T00:00:22.158039" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot_Input%20ValidationPASSWORD.png"&gt;&lt;img src="screenshot_Input%20ValidationPASSWORD.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>filename=screenshot_${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-04-09T00:00:21.833693" elapsed="0.325349"/>
+</kw>
+<status status="PASS" start="2024-04-09T00:00:21.667508" elapsed="0.491534"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-09T00:00:22.233722" elapsed="4.246856"/>
+</kw>
+<doc>Test Password Input Validation</doc>
+<status status="PASS" start="2024-04-09T00:00:10.116804" elapsed="16.364774"/>
+</test>
+<status status="FAIL" start="2024-04-08T23:58:18.799544" elapsed="127.719737"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="2" skip="0" id="s1" name="Form-react">Form-react</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

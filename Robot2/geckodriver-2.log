@@ -1,0 +1,16 @@
+1712593012016	geckodriver	INFO	Listening on 127.0.0.1:56270
+1712593015219	mozrunner::runner	INFO	Running command: "C:\\Users\\Ari\\.cache\\selenium\\firefox\\win64\\124.0.2\\firefox.exe" "--marionette" "--remote-debugging- ... 271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Ari\\AppData\\Local\\Temp\\rust_mozprofileFaJzPN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712593016576	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712593016859	Marionette	INFO	Listening on port 56291
+WebDriver BiDi listening on ws://127.0.0.1:56271
+Read port: 56291
+1712593017702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56271/devtools/browser/47e79ec0-bddf-408f-9c86-2c4c46ae94f6
+1712593046790	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712593049351	Marionette	INFO	Stopped listening on port 56291
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+console.error: (new Error("IndexedDB: main/password-rules getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))

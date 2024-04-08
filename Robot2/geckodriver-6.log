@@ -1,0 +1,25 @@
+1712593070097	geckodriver	INFO	Listening on 127.0.0.1:56401
+1712593073173	mozrunner::runner	INFO	Running command: "C:\\Users\\Ari\\.cache\\selenium\\firefox\\win64\\124.0.2\\firefox.exe" "--marionette" "--remote-debugging- ... 402" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Ari\\AppData\\Local\\Temp\\rust_mozprofile95JFJS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712593074355	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712593074566	Marionette	INFO	Listening on port 56418
+WebDriver BiDi listening on ws://127.0.0.1:56402
+Read port: 56418
+1712593075107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1712593079976	Marionette	INFO	Stopped listening on port 56418
+Dynamically enable window occlusion 1
+1712593080091	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1376"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1376:27
+
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+Exiting due to channel error.
